@@ -5,4 +5,5 @@ just some docs for an ai
 twm is the turtle window manager.
 ![/TWM.png](TWM.png)
 above is how it works here is a description in words:
-the kernel passes a list of gui apps to the twm that then takes the content of the windows plus some more metadata and then the twm server sends it to the actual wm which modifies the windows and sends the buffer back to the window server which sends it to the render location in the kernel
+<br>
+the kernel passes a list of gui apps to the twm that then takes the content of the windows plus some more metadata and then the twm server sends it to the actual wm which modifies the windows and sends the buffer back to the window server which sends it to the render location in the kernel which will print out all the pixels
